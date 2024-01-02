@@ -12,7 +12,7 @@ jobs:
       - node/install-packages:
           pkg-manager: npm
       - run: |
-        echo "Installing dependencies..."
-        npm install
+          echo " Installing dependencies..."
+          npm install
   test:
   optional_publish:
